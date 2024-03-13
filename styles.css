@@ -1,0 +1,42 @@
+body {
+    font-family: Monaco, monospace;
+    background-color: #1f1f1f;
+    color: #55ff55;
+    text-align: center;
+    padding-top: 50px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+input[type="number"],
+button {
+    background-color: #555;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type="number"]::placeholder {
+    color: #aaa;
+}
+
+button:hover {
+    background-color: #777;
+}
+
+#hasil {
+    font-size: 24px;
+    margin-top: 50px;
+}
